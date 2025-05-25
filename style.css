@@ -5,7 +5,7 @@ body {
   color: #e0e1dd;
 }
 .Upload {
-  background-color: #415a77;
+  background-color: #32455c;
   color: #e0e1dd;
   border: 1px solid #ccc;
   margin-right: 2em;
@@ -16,6 +16,11 @@ body {
   text-align: center;
   border-radius: 5px;
 }
+.Upload:hover {
+  background-color: #3e4a5c;
+  cursor: pointer;
+}
+
 textarea {
   background-color: #1b263b;
   border: #415a77;
@@ -24,4 +29,11 @@ textarea {
 textarea::placeholder {
   color: #778da9;
   opacity: 1;
+}
+
+.Continue {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
